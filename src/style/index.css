@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+.dots {
+  background-image: radial-gradient(hsl(54, 11%, 50%) 1.5px, transparent 0);
+  background-size: 3rem 3rem;
+}
+
+@theme {
+  --font-roboto: "Rubik", sans-serif;
+  --font-nosifer: "Nosifer", sans-serif;
+}
